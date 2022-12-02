@@ -1,0 +1,25 @@
+*,
+*::after,
+*::before {
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: darkorchid;
+}
+
+form input, body {
+    text-align: center;
+}
+
+button:hover{
+background-color: blueviolet;
+transition: 5s;
+}
